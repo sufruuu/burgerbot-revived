@@ -1,0 +1,3 @@
+[console_scripts]
+motor_controller_node = burgerbot_rev1.motor_controller_node:main
+

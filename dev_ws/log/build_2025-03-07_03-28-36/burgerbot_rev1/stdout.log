@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating burgerbot_rev1.egg-info
+writing burgerbot_rev1.egg-info/PKG-INFO
+writing dependency_links to burgerbot_rev1.egg-info/dependency_links.txt
+writing entry points to burgerbot_rev1.egg-info/entry_points.txt
+writing requirements to burgerbot_rev1.egg-info/requires.txt
+writing top-level names to burgerbot_rev1.egg-info/top_level.txt
+writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+reading manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+Installing publish_cmd_values script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+
+Installed /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+running symlink_data
+creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index
+creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index
+creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index/packages
+symbolically linking /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/resource/burgerbot_rev1 -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index/packages
+symbolically linking /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/package.xml -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1

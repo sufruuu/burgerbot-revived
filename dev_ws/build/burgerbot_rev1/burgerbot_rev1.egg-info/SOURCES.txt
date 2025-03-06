@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+burgerbot_rev1/__init__.py
+burgerbot_rev1/motor_controller_node.py
+burgerbot_rev1.egg-info/PKG-INFO
+burgerbot_rev1.egg-info/SOURCES.txt
+burgerbot_rev1.egg-info/dependency_links.txt
+burgerbot_rev1.egg-info/entry_points.txt
+burgerbot_rev1.egg-info/requires.txt
+burgerbot_rev1.egg-info/top_level.txt
+burgerbot_rev1.egg-info/zip-safe
+resource/burgerbot_rev1

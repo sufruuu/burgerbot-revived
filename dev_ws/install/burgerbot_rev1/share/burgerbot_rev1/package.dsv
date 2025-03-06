@@ -1,0 +1,9 @@
+source;share/burgerbot_rev1/hook/pythonpath.ps1
+source;share/burgerbot_rev1/hook/pythonpath.dsv
+source;share/burgerbot_rev1/hook/pythonpath.sh
+source;share/burgerbot_rev1/hook/ament_prefix_path.ps1
+source;share/burgerbot_rev1/hook/ament_prefix_path.dsv
+source;share/burgerbot_rev1/hook/ament_prefix_path.sh
+source;../../build/burgerbot_rev1/share/burgerbot_rev1/hook/pythonpath_develop.ps1
+source;../../build/burgerbot_rev1/share/burgerbot_rev1/hook/pythonpath_develop.dsv
+source;../../build/burgerbot_rev1/share/burgerbot_rev1/hook/pythonpath_develop.sh
