@@ -3,6 +3,7 @@
 
     <xacro:include filename="color.xacro" />
     <xacro:include filename="robot_dimensions.xacro" />
+    <xacro:include filename="lidar.xacro" />
 
     <!-- BASE LINK -->
     <link name="base_link">
