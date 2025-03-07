@@ -1,0 +1,17 @@
+[0.328s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data
+[0.463s] running develop
+[0.549s] running egg_info
+[0.549s] writing burgerbot_rev1.egg-info/PKG-INFO
+[0.549s] writing dependency_links to burgerbot_rev1.egg-info/dependency_links.txt
+[0.549s] writing entry points to burgerbot_rev1.egg-info/entry_points.txt
+[0.549s] writing requirements to burgerbot_rev1.egg-info/requires.txt
+[0.549s] writing top-level names to burgerbot_rev1.egg-info/top_level.txt
+[0.550s] reading manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.551s] running build_ext
+[0.551s] Creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+[0.552s] Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+[0.552s] 
+[0.552s] Installed /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+[0.552s] running symlink_data
+[0.566s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data

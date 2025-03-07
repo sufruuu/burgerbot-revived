@@ -10,4 +10,9 @@ burgerbot_rev1.egg-info/entry_points.txt
 burgerbot_rev1.egg-info/requires.txt
 burgerbot_rev1.egg-info/top_level.txt
 burgerbot_rev1.egg-info/zip-safe
+launch/display.launch.py
+launch/rsp.launch.py
 resource/burgerbot_rev1
+urdf/color.xacro
+urdf/robot_core.xacro
+urdf/robot_dimensions.xacro

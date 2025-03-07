@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Body dimensions (in meters) -->
+  <!-- Body is a cylinder: diameter = 120mm (0.12 m), length = 80mm (0.08 m) -->
+  <xacro:property name="body_diameter" value="0.12"/>
+  <xacro:property name="body_length" value="0.08"/>
+  <xacro:property name="body_radius" value="0.06"/>
+
+  <!-- Wheel dimensions -->
+  <!-- Wheel diameter = 60mm (0.06 m); radius is half of that -->
+  <xacro:property name="wheel_diameter" value="0.06"/>
+  <xacro:property name="wheel_radius" value="${wheel_diameter / 2.0}"/>
+  <!-- Distance between the centers of the left and right wheels = 150mm (0.15 m) -->
+  <xacro:property name="wheel_separation" value="0.15"/>
+  <!-- If wheels need a small offset along x-axis, set here (0 if none) -->
+  <xacro:property name="wheel_x_offset" value="0.0"/>
+
+  <!-- Lidar dimensions -->
+  <!-- Represent the lidar as a cylinder with diameter = 70mm (0.07 m) -->
+  <xacro:property name="lidar_diameter" value="0.07"/>
+  <!-- Arbitrarily set a height for the lidar cylinder, e.g. 20mm (0.02 m) -->
+  <xacro:property name="lidar_height" value="0.02"/>
+  <!-- The lidar is mounted on the top of the body but offset by 30mm (0.03 m) down from the top -->
+  <xacro:property name="lidar_offset_from_top" value="0.03"/>
+
+  <!-- Caster wheel dimensions -->
+  <!-- Place the caster wheel at 75mm (0.075 m) from the robot center -->
+  <xacro:property name="caster_distance" value="0.03"/>
+  <!-- Represent the caster as a sphere; choose a radius (e.g., 20mm or 0.02 m) -->
+  <xacro:property name="caster_radius" value="0.03"/>
+</robot>

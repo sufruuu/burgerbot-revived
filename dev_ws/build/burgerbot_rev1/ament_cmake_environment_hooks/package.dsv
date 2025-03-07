@@ -1,0 +1,4 @@
+source;share/burgerbot_rev1/local_setup.bash
+source;share/burgerbot_rev1/local_setup.dsv
+source;share/burgerbot_rev1/local_setup.sh
+source;share/burgerbot_rev1/local_setup.zsh

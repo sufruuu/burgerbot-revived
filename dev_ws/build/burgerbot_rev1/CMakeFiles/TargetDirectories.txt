@@ -1,0 +1,9 @@
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/uninstall.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/burgerbot_rev1_uninstall.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/test.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/edit_cache.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/rebuild_cache.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/list_install_components.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/install.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/install/local.dir
+/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/CMakeFiles/install/strip.dir

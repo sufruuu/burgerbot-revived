@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/sufruuu/burgerbot-revived/dev_ws/src/burgerbot_rev1/worlds": No such
+  file or directory.
+
+[0m

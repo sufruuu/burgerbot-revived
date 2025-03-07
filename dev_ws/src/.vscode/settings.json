@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1",
+        "/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages",
+        "/home/sufruuu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/sufruuu/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/build/esp_rpi_bridge",
+        "/home/sufruuu/ros2_ws/install/esp_rpi_bridge/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1",
+        "/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages",
+        "/home/sufruuu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/install/serial_motor_demo/lib/python3.10/site-packages",
+        "/home/sufruuu/ros2_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages",
+        "/home/sufruuu/ros2_ws/build/esp_rpi_bridge",
+        "/home/sufruuu/ros2_ws/install/esp_rpi_bridge/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

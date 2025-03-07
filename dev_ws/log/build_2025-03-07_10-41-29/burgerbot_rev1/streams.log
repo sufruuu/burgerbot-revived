@@ -1,0 +1,18 @@
+[0.337s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data
+[0.476s] running develop
+[0.564s] running egg_info
+[0.564s] writing burgerbot_rev1.egg-info/PKG-INFO
+[0.564s] writing dependency_links to burgerbot_rev1.egg-info/dependency_links.txt
+[0.564s] writing entry points to burgerbot_rev1.egg-info/entry_points.txt
+[0.564s] writing requirements to burgerbot_rev1.egg-info/requires.txt
+[0.564s] writing top-level names to burgerbot_rev1.egg-info/top_level.txt
+[0.565s] reading manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.565s] writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.566s] running build_ext
+[0.566s] Creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+[0.567s] Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+[0.567s] 
+[0.567s] Installed /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+[0.567s] running symlink_data
+[0.567s] error: can't copy '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/urdf/robot_dimension.xacro': doesn't exist or not a regular file
+[0.580s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data
