@@ -9,8 +9,10 @@ You'll Need:
 	- RP Lidar A1M8
 	- Caster Wheel
 	- Chassis of your choice
+# Prerequisites
+- Ubuntu 22.04 Server (on RPI)
+- Ubuntu 22.04 Desktop (on Host PC)
+- ROS2 Humble Distro
+- Arduino IDE 1.8.19
 
-Ubuntu 22.04 Server (on RPI)
-Ubuntu 22.04 Desktop (on Host PC)
-ROS2 Humble Distro
-Arduino IDE 1.8.19
+TO-DO: Update README.md
