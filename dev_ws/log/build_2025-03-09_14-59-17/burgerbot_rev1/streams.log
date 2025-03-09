@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': /usr/bin/cmake --build /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1 -- -j20 -l20
+[0.044s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': /usr/bin/cmake --build /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1 -- -j20 -l20
+[0.052s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': /usr/bin/cmake --install /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf/lidar.xacro
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index/package_run_dependencies/burgerbot_rev1
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index/parent_prefix_path/burgerbot_rev1
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/environment/path.sh
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/environment/path.dsv
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/local_setup.bash
+[0.059s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/local_setup.sh
+[0.060s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/local_setup.zsh
+[0.060s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/local_setup.dsv
+[0.060s] -- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/package.dsv
+[0.060s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/ament_index/resource_index/packages/burgerbot_rev1
+[0.060s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/cmake/burgerbot_rev1Config.cmake
+[0.060s] -- Up-to-date: /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/cmake/burgerbot_rev1Config-version.cmake
+[0.061s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': /usr/bin/cmake --install /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1

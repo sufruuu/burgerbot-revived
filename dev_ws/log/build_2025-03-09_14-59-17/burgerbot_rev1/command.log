@@ -1,0 +1,4 @@
+Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': /usr/bin/cmake --build /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1 -- -j20 -l20
+Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': /usr/bin/cmake --build /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1 -- -j20 -l20
+Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': /usr/bin/cmake --install /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': /usr/bin/cmake --install /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
