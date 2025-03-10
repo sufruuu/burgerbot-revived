@@ -1,7 +1,6 @@
 This is an old project revived from the old burgerbot/ambibot.
 The aim of this project is to build a simple 2WD Drive Robot using ROS2 packages.
 
-<<<<<<< HEAD
 #### You'll Need:  
 - Raspberry Pi(brain)  
 - ESP32 (talk to the motors)  
@@ -35,21 +34,3 @@ colcon build --symlink-install
 source ~/.bashrc
 ```
 ### Command to launch the nodes:
-```
-ros2 launch 
-=======
-You'll Need:
-	- Raspberry Pi(brain)
-	- ESP32 (talk to the motors)
-	- L298N Motor Driver
-	- RP Lidar A1M8
-	- Caster Wheel
-	- Chassis of your choice
-# Prerequisites
-- Ubuntu 22.04 Server (on RPI)
-- Ubuntu 22.04 Desktop (on Host PC)
-- ROS2 Humble Distro
-- Arduino IDE 1.8.19
-
-TO-DO: Update README.md
->>>>>>> cc05916df38a6c8c7ff440c9c1972002f74606f7
