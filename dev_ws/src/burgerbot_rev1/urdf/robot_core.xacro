@@ -4,11 +4,13 @@
     <xacro:include filename="color.xacro" />
     <xacro:include filename="robot_dimensions.xacro" />
     <xacro:include filename="lidar.xacro" />
+    <xacro:include filename="interia_macro.xacro"/>
+    <xacro:include filename="gazebo_control.xacro"/>
 
     <!-- BASE LINK -->
-    <link name="base_link">
+    <link name="base_footprint"/>
     
-    </link>
+    <link name="base_link"/>
 
     <!-- BASE FOOTPRINT LINK-->
     <joint name="base_footprint_joint" type="fixed">
@@ -17,14 +19,11 @@
         <origin xyz="0 0 0" rpy="0 0 0"/>
     </joint>
 
-    <link name="base_footprint">
-    </link>
-
     <!--CHASSIS LINK    (check the joint & link origin after adding wheels) -->
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis_link"/>
-        <origin xyz="0 0 0"/>
+        <origin xyz="0 0 ${wheel_radius / 2.0}"/>
     </joint>
 
     <link name="chassis_link">
@@ -41,35 +40,49 @@
                 <cylinder radius="${body_diameter / 2.0}" length="${body_length}"/>
             </geometry>
         </collision>
+        <xacro:inertial_box mass="0.5" x="${body_radius}" y="${body_radius}" z="${body_length}">
+            <origin xyz="${body_radius/2} 0 ${body_length/2}" rpy="0 0 0"/>
+        </xacro:inertial_box>
     </link>
+
+    <gazebo reference="chassis">
+        <material>Gazebo/Orange</material>
+    </gazebo>
 
     <!-- LEFT WHEEL LINK -->
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0 0.07 0" rpy="-${pi/2} 0 0"/>
+        <origin xyz="0 0.07 ${wheel_radius}" rpy="-${pi/2} 0 0"/>
         <axis xyz="0 0 1"/>
     </joint>
 
     <link name="left_wheel">
         <visual>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="0.02"/> <!-- 1cm thickness -->
+                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/>
             </geometry>
             <material name="white"/>
         </visual>
         <collision>
             <geometry>
-                <cylinder radius="${wheel_radius}" length="0.02"/> <!-- 1cm thickness -->
+                <cylinder radius="${wheel_radius}" length="${wheel_thickness}"/> <!-- 1cm thickness -->
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="${wheel_mass}" length="${wheel_thickness}" radius="${wheel_radius}">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="left_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
 
     <!-- RIGHT WHEEL LINK -->
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0 -0.07 0" rpy="${pi/2} 0 0"/>
+        <origin xyz="0 -0.07 ${wheel_radius}" rpy="${pi/2} 0 0"/>
         <axis xyz="0 0 -1"/>
     </joint>
 
@@ -85,7 +98,14 @@
                 <cylinder radius="${wheel_radius}" length="0.02"/>
             </geometry>
         </collision>
+        <xacro:inertial_cylinder mass="${wheel_mass}" length="${wheel_thickness}" radius="${wheel_radius}">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="right_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
 
     <!-- CASTER WHEEL LINK -->
     <joint name="caster_wheel_joint" type="fixed">
@@ -106,6 +126,15 @@
                 <sphere radius="${caster_radius}"/>
             </geometry>
         </collision>
+        <xacro:inertial_sphere mass="${caster_wheel_mass}" radius="${caster_radius}">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_sphere>
     </link>
+
+    <gazebo reference="caster_wheel">
+        <material>Gazebo/Blue</material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
 
 </robot>

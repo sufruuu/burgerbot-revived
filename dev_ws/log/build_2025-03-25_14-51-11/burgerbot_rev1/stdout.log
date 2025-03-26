@@ -1,0 +1,38 @@
+running develop
+Removing /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+running egg_info
+writing ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/PKG-INFO
+writing dependency_links to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/dependency_links.txt
+writing entry points to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/entry_points.txt
+writing requirements to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/requires.txt
+writing top-level names to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/top_level.txt
+reading manifest file '../../build/burgerbot_rev1/burgerbot_rev1.egg-info/SOURCES.txt'
+writing manifest file '../../build/burgerbot_rev1/burgerbot_rev1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build
+creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib
+creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+copying burgerbot_rev1/motor_controller_node.py -> /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+copying burgerbot_rev1/__init__.py -> /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+running install
+running install_lib
+creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+copying /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1/motor_controller_node.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+copying /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1/__init__.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+byte-compiling /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1/motor_controller_node.py to motor_controller_node.cpython-310.pyc
+byte-compiling /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1
+copying resource/burgerbot_rev1 -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1
+copying launch/display.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+copying launch/slam_map.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+copying launch/rsp.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+copying urdf/robot_core.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+copying urdf/robot_dimensions.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+copying urdf/color.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+running install_egg_info
+Copying ../../build/burgerbot_rev1/burgerbot_rev1.egg-info to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+writing list of installed files to '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/install.log'

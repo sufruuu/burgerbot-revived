@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+-- Build files have been written to: /home/sufruuu/burgerbot-revived/dev_ws/build/hector_slam_launch
+-- Install configuration: ""
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/mapping_box.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/mpo700_mapping.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/postproc_data.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/cityflyer_logfile_processing.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/pr2os.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/hector_ugv.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/postproc_qut_logs.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/height_mapping.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/launch/tutorial.launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/rviz_cfg
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/rviz_cfg/mapping_demo.rviz
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/ament_index/resource_index/package_run_dependencies/hector_slam_launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/ament_index/resource_index/parent_prefix_path/hector_slam_launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/environment/ament_prefix_path.sh
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/environment/ament_prefix_path.dsv
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/environment/path.sh
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/environment/path.dsv
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/local_setup.bash
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/local_setup.sh
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/local_setup.zsh
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/local_setup.dsv
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/package.dsv
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/ament_index/resource_index/packages/hector_slam_launch
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/cmake/hector_slam_launchConfig.cmake
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/cmake/hector_slam_launchConfig-version.cmake
+-- Installing: /home/sufruuu/burgerbot-revived/dev_ws/install/hector_slam_launch/share/hector_slam_launch/package.xml

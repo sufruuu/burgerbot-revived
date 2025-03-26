@@ -1,0 +1,42 @@
+[0.365s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build
+[0.515s] running develop
+[0.615s] Removing /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+[0.632s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '0': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build
+[0.633s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/src/burgerbot_rev1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/burgerbot_rev1 build --build-base /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build install --record /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/install.log --single-version-externally-managed install_data --force
+[0.777s] running egg_info
+[0.777s] writing ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/entry_points.txt
+[0.778s] writing requirements to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/requires.txt
+[0.778s] writing top-level names to ../../build/burgerbot_rev1/burgerbot_rev1.egg-info/top_level.txt
+[0.778s] reading manifest file '../../build/burgerbot_rev1/burgerbot_rev1.egg-info/SOURCES.txt'
+[0.779s] writing manifest file '../../build/burgerbot_rev1/burgerbot_rev1.egg-info/SOURCES.txt'
+[0.779s] running build
+[0.779s] running build_py
+[0.779s] creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build
+[0.779s] creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib
+[0.779s] creating /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+[0.779s] copying burgerbot_rev1/motor_controller_node.py -> /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+[0.779s] copying burgerbot_rev1/__init__.py -> /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1
+[0.779s] running install
+[0.780s] running install_lib
+[0.780s] creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+[0.780s] copying /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1/motor_controller_node.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+[0.780s] copying /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build/lib/burgerbot_rev1/__init__.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1
+[0.780s] byte-compiling /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1/motor_controller_node.py to motor_controller_node.cpython-310.pyc
+[0.781s] byte-compiling /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1/__init__.py to __init__.cpython-310.pyc
+[0.781s] running install_data
+[0.781s] copying package.xml -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1
+[0.781s] copying resource/burgerbot_rev1 -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1
+[0.781s] copying launch/display.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+[0.781s] copying launch/slam_map.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+[0.782s] copying launch/rsp.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+[0.782s] copying urdf/robot_core.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+[0.782s] copying urdf/robot_dimensions.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+[0.782s] copying urdf/color.xacro -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/urdf
+[0.782s] running install_egg_info
+[0.783s] Copying ../../build/burgerbot_rev1/burgerbot_rev1.egg-info to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot_rev1-0.0.0-py3.10.egg-info
+[0.784s] running install_scripts
+[0.795s] Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+[0.795s] writing list of installed files to '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/install.log'
+[0.808s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/src/burgerbot_rev1' returned '0': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/burgerbot_rev1 build --build-base /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build install --record /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/install.log --single-version-externally-managed install_data --force

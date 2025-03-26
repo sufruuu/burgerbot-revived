@@ -1,0 +1,25 @@
+# no_odom.yaml
+
+slam_toolbox:
+  ros__parameters:
+    # General Parameters
+    use_sim_time: false  # Set to true if using simulation (e.g., Gazebo)
+    debug: false         # Enable debugging output
+    throttle_scans: 1    # Number of scans to skip between processing
+
+    # Mapping Parameters
+    map_resolution: 0.05  # Resolution of the map in meters/pixel
+    max_laser_range: 12.0 # Maximum range of the laser scanner
+    minimum_travel_distance: 0.1  # Minimum distance before updating the map
+    transform_publish_period: 0.05 # Frequency of publishing TF transforms
+
+    # Disable Odometry
+    use_odom: false       # Do not use odometry data
+    use_imu_data: false   # Do not use IMU data
+
+    # Scan Matching Parameters
+    scan_matching:
+      use_scan_matching: true  # Enable scan matching
+      linear_update: 0.1       # Linear distance threshold for scan matching
+      angular_update: 0.1      # Angular distance threshold for scan matching
+      resolution: 0.05         # Resolution of the scan matcher

@@ -1,0 +1,19 @@
+[0.345s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data
+[0.483s] running develop
+[0.570s] running egg_info
+[0.570s] writing burgerbot_rev1.egg-info/PKG-INFO
+[0.570s] writing dependency_links to burgerbot_rev1.egg-info/dependency_links.txt
+[0.570s] writing entry points to burgerbot_rev1.egg-info/entry_points.txt
+[0.570s] writing requirements to burgerbot_rev1.egg-info/requires.txt
+[0.570s] writing top-level names to burgerbot_rev1.egg-info/top_level.txt
+[0.571s] reading manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.572s] writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+[0.572s] running build_ext
+[0.572s] Creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+[0.573s] Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+[0.573s] 
+[0.573s] Installed /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+[0.573s] running symlink_data
+[0.574s] symbolically linking /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/launch/slam_map.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch
+[0.574s] error: [Errno 17] File exists: '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/launch/slam_map.launch.py' -> '/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch/slam_map.launch.py'
+[0.586s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1' returned '1': PYTHONPATH=/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/build --no-deps symlink_data

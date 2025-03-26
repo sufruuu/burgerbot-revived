@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing burgerbot_rev1.egg-info/PKG-INFO
+writing dependency_links to burgerbot_rev1.egg-info/dependency_links.txt
+writing entry points to burgerbot_rev1.egg-info/entry_points.txt
+writing requirements to burgerbot_rev1.egg-info/requires.txt
+writing top-level names to burgerbot_rev1.egg-info/top_level.txt
+reading manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+writing manifest file 'burgerbot_rev1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/python3.10/site-packages/burgerbot-rev1.egg-link (link to .)
+Installing motor_controller_node script to /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/lib/burgerbot_rev1
+
+Installed /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1
+running symlink_data
+error: [Errno 17] File exists: '/home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/launch/slam_map.launch.py' -> '/home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch/slam_map.launch.py'
+symbolically linking /home/sufruuu/burgerbot-revived/dev_ws/build/burgerbot_rev1/launch/slam_map.launch.py -> /home/sufruuu/burgerbot-revived/dev_ws/install/burgerbot_rev1/share/burgerbot_rev1/launch

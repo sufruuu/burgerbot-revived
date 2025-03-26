@@ -9,11 +9,17 @@ setup(
     data_files=[
         ('share/' + package_name, ['package.xml', 'resource/' + package_name]),
         ('share/' + package_name + '/launch', ['launch/display.launch.py']),
+        ('share/' + package_name + '/launch', ['launch/launch_sim.launch.py']),
+        ('share/' + package_name + '/launch', ['launch/slam_map.launch.py']),
         ('share/' + package_name + '/launch', ['launch/rsp.launch.py']),
         ('share/' + package_name + '/urdf', [
+            'urdf/color.xacro',
+            'urdf/gazebo_control.xacro',
+            'urdf/interia_macro.xacro',
+            'urdf/lidar.xacro',
             'urdf/robot_core.xacro',
-            'urdf/robot_dimensions.xacro',
-            'urdf/color.xacro'
+            'urdf/robot_dimensions.xacro'
+            
         ]),
     ],
     install_requires=['setuptools', 'pyserial'],

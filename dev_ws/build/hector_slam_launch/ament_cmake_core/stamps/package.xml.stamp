@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hector_slam_launch</name>
+  <version>0.5.2</version>
+  <description>
+    hector_slam_launch contains launch files for launching hector_slam with different robot systems/setups/postprocessing scenarios in ROS 2.
+  </description>
+
+  <maintainer email="meyer@fsr.tu-darmstadt.de">Johannes Meyer</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/hector_slam_launch</url>
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+
+  <!-- Replace catkin with ament_cmake -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Update dependencies to their ROS 2 equivalents -->
+  <depend>hector_mapping</depend>
+  <depend>hector_map_server</depend>
+  <depend>hector_trajectory_server</depend>
+  <depend>hector_geotiff</depend>
+  <depend>hector_geotiff_plugins</depend>
+  <depend>rviz2</depend> <!-- rviz2 is the ROS 2 equivalent of rviz -->
+  <depend>tf2</depend>   <!-- tf2 is the ROS 2 equivalent of tf -->
+  <depend>topic_tools</depend>
+
+  <!-- Optional: Add testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+</package>

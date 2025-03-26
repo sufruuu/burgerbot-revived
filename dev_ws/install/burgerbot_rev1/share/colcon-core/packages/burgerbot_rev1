@@ -1,1 +1,1 @@
-ament_cmake:ament_lint_auto
+geometry_msgs:pyserial:rclpy

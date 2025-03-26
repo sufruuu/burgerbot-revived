@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/sufruuu/burgerbot-revived/dev_ws/build/hector_marker_drawing': /usr/bin/cmake /home/sufruuu/burgerbot-revived/dev_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sufruuu/burgerbot-revived/dev_ws/install/hector_marker_drawing
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.319s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.394s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.394s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.394s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.394s]   CMake did not find one.
+[0.394s] 
+[0.394s]   Could not find a package configuration file provided by "catkin" with any
+[0.394s]   of the following names:
+[0.394s] 
+[0.394s]     catkinConfig.cmake
+[0.394s]     catkin-config.cmake
+[0.394s] 
+[0.394s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.394s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.394s]   provides a separate development package or SDK, be sure it has been
+[0.394s]   installed.
+[0.394s] 
+[0.394s] [0m
+[0.394s] -- Configuring incomplete, errors occurred!
+[0.394s] See also "/home/sufruuu/burgerbot-revived/dev_ws/build/hector_marker_drawing/CMakeFiles/CMakeOutput.log".
+[0.398s] Invoked command in '/home/sufruuu/burgerbot-revived/dev_ws/build/hector_marker_drawing' returned '1': /usr/bin/cmake /home/sufruuu/burgerbot-revived/dev_ws/src/hector_slam/hector_marker_drawing -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/sufruuu/burgerbot-revived/dev_ws/install/hector_marker_drawing

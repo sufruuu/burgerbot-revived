@@ -4,7 +4,7 @@
   <!-- Body is a cylinder: diameter = 120mm (0.12 m), length = 80mm (0.08 m) -->
   <xacro:property name="body_diameter" value="0.12"/>
   <xacro:property name="body_length" value="0.08"/>
-  <xacro:property name="body_radius" value="0.06"/>
+  <xacro:property name="body_radius" value="${body_diameter / 2.0}"/>
 
   <!-- Wheel dimensions -->
   <!-- Wheel diameter = 60mm (0.06 m); radius is half of that -->
@@ -12,8 +12,11 @@
   <xacro:property name="wheel_radius" value="${wheel_diameter / 2.0}"/>
   <!-- Distance between the centers of the left and right wheels = 150mm (0.15 m) -->
   <xacro:property name="wheel_separation" value="0.15"/>
-  <!-- If wheels need a small offset along x-axis, set here (0 if none) -->
-  <xacro:property name="wheel_x_offset" value="0.0"/>
+  <xacro:property name="wheel_mass" value="0.05"/>
+  <xacro:property name="wheel_thickness" value="0.026"/>
+  <xacro:property name="wheel_offset_x" value="0.226"/>
+  <xacro:property name="wheel_offset_y" value="0.1485"/>
+  <xacro:property name="wheel_offset_z" value="0.01"/>
 
   <!-- Lidar dimensions -->
   <!-- Represent the lidar as a cylinder with diameter = 70mm (0.07 m) -->
@@ -24,8 +27,10 @@
   <xacro:property name="lidar_offset_from_top" value="0.03"/>
 
   <!-- Caster wheel dimensions -->
-  <!-- Place the caster wheel at 75mm (0.075 m) from the robot center -->
   <xacro:property name="caster_distance" value="0.03"/>
-  <!-- Represent the caster as a sphere; choose a radius (e.g., 20mm or 0.02 m) -->
-  <xacro:property name="caster_radius" value="0.03"/>
+  <!-- caster_wheel_radius changed to caster_radius-->
+  <xacro:property name="caster_radius" value="0.015"/>
+  <xacro:property name="caster_wheel_mass" value="0.01"/>
+  <xacro:property name="caster_wheel_offset_x" value="0.075"/>
+    <xacro:property name="caster_wheel_offset_z" value="${wheel_offset_z - wheel_radius + caster_radius}"/>
 </robot>
